@@ -1,4 +1,4 @@
-const DB = {
+const database = {
     pessoa: [
         {
             id: 1,
