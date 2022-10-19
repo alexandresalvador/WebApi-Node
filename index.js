@@ -59,7 +59,7 @@ const DB = {
 
 //Rota que retorna todas as pessoas cadastradas por meio do método GET.
 app.get('/pessoas', function (req, res) {
-  res.json('DB.pessoas');
+  res.json(DB.pessoas);
 });
 
 //Rota que retorna uma pessoa por id por meio do método GET.
